@@ -7,3 +7,4 @@ patch test
 minor up test
 test
 perf: aaa
+test: bbb
