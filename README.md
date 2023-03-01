@@ -4,7 +4,7 @@ test commit
 minor up5 newbranch
 minor up6 newbranch2
 patch test 
-minor up test
+
 test
 perf: aaa
 test: bbb
@@ -13,7 +13,16 @@ prtitle test
 pr title test
 
 aaaaa
+perf: gehogeho
+
+minor up test
+add ajlkjflkdajkfdla
+
+
+0.1.0
 
 fix: hogehoge
 feat: fugafuga
-perf: gehogeho
+
+0.2.0
+
