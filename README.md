@@ -1,4 +1,4 @@
 # semantic-release-action-test
 
 test commit
-minor up2
+minor up3
