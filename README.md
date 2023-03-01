@@ -15,3 +15,4 @@ pr title test
 aaaaa
 
 fix: hogehoge
+feat: fugafuga
