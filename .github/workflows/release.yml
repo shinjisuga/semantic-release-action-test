@@ -25,3 +25,11 @@ jobs:
             conventional-changelog-conventionalcommits@4.6.3
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
+      - name: test
+        id: versioning
+        run: |
+          version=$(git describe --tags --abbrev=0)
+          echo "::set-output name=version::${version}"
+      - name: test2
+        run: |
+          echo ${{ steps.versioning.outputs.version }}
